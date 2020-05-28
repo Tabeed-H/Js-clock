@@ -1,0 +1,33 @@
+.main-container{
+    border: solid;
+    width: 30rem;
+    margin: 50px auto;
+    height: 30rem;
+    padding-top: 150px;
+    position: relative;
+    border-radius: 40%;
+    align-content: center;
+}
+.hand{
+    width: 50%;
+    height: 5px;
+    top: 50%;
+    background-color: black;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    position: absolute;
+}
+.seconds-hand{
+    background-color: red;
+    width: 40%;
+    left: 10%;;
+}
+.hour-hand{
+    height: 10px;
+    width: 25%;
+    left: 25%;
+}
+.digital{
+    margin: auto;
+    text-align: center;
+}
