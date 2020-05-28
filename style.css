@@ -1,11 +1,11 @@
 .main-container{
     border: solid;
-    width: 30rem;
+    width: 35rem;
     margin: 50px auto;
     height: 30rem;
     padding-top: 150px;
     position: relative;
-    border-radius: 40%;
+    border-radius: 60%;
     align-content: center;
 }
 .hand{
@@ -30,4 +30,59 @@
 .digital{
     margin: auto;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    border: solid 2px #000;
+    width: 10%;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.mid-point{
+    top: 48%;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    left: 47%;
+}
+
+.t12{
+    top: 0;
+    position: absolute;
+    left: 49%;
+}
+.t06{
+    top: 95%;
+    left: 49%;
+    position: absolute;
+}
+.t09{
+    top: 48%;
+    left: 0;
+    position: absolute;
+}
+.t03{
+    top: 48%;
+    right: 0;
+    position: absolute;
+}
+
+.time{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+}
+.extra{
+    position: absolute;
+    right: 15%;
+    top: 48%;
+    font-family: 'Bebas Neue', cursive;
+    border: solid 2px #000;
+    padding: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
 }

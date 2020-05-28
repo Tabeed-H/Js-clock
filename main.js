@@ -1,7 +1,19 @@
 let seconds = document.querySelector('.seconds-hand');
 let minutes = document.querySelector('.minute-hand');
 let hours = document.querySelector('.hour-hand');
+let date = document.getElementsByClassName('date');
+let day = document.getElementsByClassName('day');
+let dayArray = ['Sun', 'Mon', 'Tue', 'Wed', 'Thru', 'Fri', 'Sat', 'Sun'];
 
+window.addEventListener("load", function(){
+
+    let presentMoment = new Date();
+    date.innerHTML = `${presentMoment.getDate()}`
+
+    let presentDay = presentMoment.getDay();
+    day.innerHTML = `${dayArray[presentDay]}`
+
+});
 
 function changeTime(){
     let currentTime = new Date();
