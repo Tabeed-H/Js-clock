@@ -1,13 +1,15 @@
 let seconds = document.querySelector('.seconds-hand');
 let minutes = document.querySelector('.minute-hand');
 let hours = document.querySelector('.hour-hand');
-let date = document.getElementsByClassName('date');
-let day = document.getElementsByClassName('day');
+let date = document.querySelector('.date');
+let day = document.querySelector('.day');
 let dayArray = ['Sun', 'Mon', 'Tue', 'Wed', 'Thru', 'Fri', 'Sat', 'Sun'];
 
 window.addEventListener("load", function(){
 
     let presentMoment = new Date();
+    console.log(presentMoment);
+    console.log(presentMoment.getDate())
     date.innerHTML = `${presentMoment.getDate()}`
 
     let presentDay = presentMoment.getDay();
